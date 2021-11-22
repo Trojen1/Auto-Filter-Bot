@@ -43,7 +43,13 @@ class Bot(Client):
         usr_bot_me = await self.get_me()
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"@{usr_bot_me.username}  started! "
+            f"""Konichiwa 💛 I'm Eriri 🤗
+ 
+You Can Download Any Romance/Shoujo Manga Using Me 💛😜
+💛My Owner is @tr0j3n 🖤
+💛If You Have Got Any Problem 'bout Me Please Contact him or @Peaceful_Wolf_016 😈
+💛Join @waifuNetBots To Get Help 💛
+💛My Owner's And Dev's Harem & From Here You Can See My Sisters: @waifuNetwork!"""
         )
         self.USER, self.USER_ID = await User().start()
         await self.USER.send_message(
@@ -53,4 +59,4 @@ class Bot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        self.LOGGER(__name__).info("Bot stopped. Bye.")
+        self.LOGGER(__name__).info("I'm Going To Sleep so Bye Bye 💛")
