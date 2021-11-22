@@ -1,42 +1,36 @@
 class script(object):
 
 
-    START_MSG = """ <b>Hi {}
-
-You can call this as an Auto Filter Bot if you like :D
-
-Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
-
-So no need to add filters for your files or movies from now on!
-
-For more click <i>help</i></b>"""
+    START_MSG = """ Konichiwa 💛 I'm Eriri 🤗
+ 
+You Can Download Any Romance/Shoujo Manga Using Me 💛😜
+💛My Owner is @tr0j3n 🖤
+💛If You Have Got Any Problem 'bout Me Please Contact him or @Peaceful_Wolf_016 😈
+💛Join @waifuNetBots To Get Help 💛
+💛My Owner's And Dev's Harem & From Here You Can See My Sisters: @waifuNetwork!"""
 
 
-    HELP_MSG = """<b>How to use the bot??</b>
+    HELP_MSG = """<b>How to use Me??</b>
 <i>    
-* Add user account to your channel !
+/manga <Manga Name> - To get the manga that You Want
 
-* Add bot to group with admin rights.
+or
 
-* Once deployed and bot is started, send a message to channel (must do step)
-
-* Bot will work now :)
-
-No need add each filter again!
-Bot will automatically search for your file and give links to that!
+You Can USe the Inline Option tooo...
 </i>
 
-<b>© @TroJanzHEX</b>"""
+<b>@mangasearchdownbot</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Auto Filter Bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : Eriri Spencer Sawamura</b>
     
-⭕️<b>Creater :</b> @TroJanzHEX
+⭕️<b>Owner :</b> @tr0j3n
+
+⭕️<b>Devs :</b> @waifuNetwork
 
 ⭕️<b>Language :</b> <code>Python3</code>
 
 ⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-
-⭕️<b>Tutorial Video :</b> <a href='https://youtu.be/KQVYQAOsFYY'>Video Link</a> 
+ 
 
 """
